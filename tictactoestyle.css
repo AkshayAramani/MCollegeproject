@@ -1,0 +1,60 @@
+.container{
+height:70vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.btncontainer{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;     
+    align-items:center;
+}
+.box{
+    margin:5px;
+    background-color:white;
+    width:18vmin;
+    height:18vmin;
+    border-radius:15px;
+    font-size:25px;
+}
+.reset{
+    height:60px;
+    width:60px;
+    border-radius:5px;
+    border:2px solid black;
+    background:black;
+    color:white;
+    box-shadow: 0 0 1rem rgba(0 0 0 0.4);
+}
+.msg-container{
+    height:10vmin;
+}
+.hide{
+    display:none;
+}
+#new{
+    width:70px;
+    height:50px;
+    border-radius:10px;
+    border:2px solid white;
+    background:black;
+    color:white;
+    margin-top:5px;
+}
+#msg{
+    font-size:25px;
+    color:blue;
+
+}
+body{
+    background:orange;
+    text-align:center;
+}
+* {
+    margin:0;
+    padding:0;
+}
